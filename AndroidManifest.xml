@@ -1,0 +1,46 @@
+<manifest package="com.zw.dailyrecipe"
+    android:versionCode="4"
+    android:versionName="1.2.1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" android:description="@string/description">
+        <activity android:name="Home" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" android:clearTaskOnLaunch="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".provider.RecipeContentProvider"
+            android:authorities="com.zw.dailyrecipe.provider.RecipeContentProvider" >
+        </provider>
+        <activity android:name="com.google.ads.AdActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"></activity>
+        <activity android:name="RecipeListActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.zw.dailyrecipe.RecipeDetailActivity" android:theme="@android:style/Theme.Light.NoTitleBar" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        
+    </application>
+
+</manifest>

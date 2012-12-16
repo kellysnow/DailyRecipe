@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name"> 毎日のレシピ</string>
+    <string name="menu_refresh">更新</string>
+    <string name ="description"> 毎日のレシピ</string>
+    <string name="menu_favorites">お気に入り</string>
+    <string name="menu_clear">キャッシュを消去する</string>
+    <string name="title_activity_list"> 毎日のレシピ</string>
+     <string name="title_activity_favorites">お気に入り</string>
+    <string name="rss_daily_recipes">http://www.jamieoliver.com/daily_recipe.xml</string>
+     <string name="title_serves">〜人分</string>
+    <string name="title_ingredients">材料</string>
+    <string name="title_method">作り方</string> 
+    <string name="message_progress">データ読み込み中...</string>
+    <string name="message_network_error">ネットワークに接続できません。ネットワーク接続の設定を確認ください。</string>
+    <string name="message_get_detail_error">レシピを取得できません。 後でもう一度お試しください。</string>
+    <string name="pattern_time">yyyy年MM月dd日 EEE曜日</string>
+</resources>

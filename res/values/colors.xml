@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_title_background">#28a4dd</color>
+    <color name="text_color_recipe_title">#3a272D</color>
+    <color name="text_color_recipe_date">#aca7a3</color>
+    <color name="divider">#F0E9E4</color>
+	<color name="background_grey">#C0C0C0</color>
+</resources>

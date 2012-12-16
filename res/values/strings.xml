@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name"> Daily Recipes</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name ="description">Daily Recipes</string>
+    <string name="menu_favorites">Favorites</string>
+    <string name="menu_clear">Clear Cache</string>
+    <string name="title_activity_list">Daily Recipes</string>
+     <string name="title_activity_detail">Detail</string>
+     <string name="title_activity_favorites">Favorites</string>
+    <string name="rss_daily_recipes">http://www.jamieoliver.com/daily_recipe.xml</string>
+     <string name="title_serves">Serves</string>
+    <string name="title_ingredients">Ingredients</string>
+    <string name="title_method">Method</string> 
+    <string name="message_progress">Loading data...</string>
+    <string name="message_network_error">Unable to connect to the network. Please check your network configuration.</string>
+    <string name="message_get_detail_error">Sorry, can not get recipe details. Please try again later.</string>
+    <string name="pattern_time">EEE, dd MMM yyyy</string>
+</resources>
